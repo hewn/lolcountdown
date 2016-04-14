@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_clock"
+            android:title="英雄技能计时器" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="怎么使用？" />
+        <item
+            android:id="@+id/nav_about"
+            android:title="关于" />
+    </group>
+</menu>

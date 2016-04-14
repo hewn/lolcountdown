@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">英雄联盟敌方技能计时器</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help">Help</string>
+    <string name="about">本软件用来计算敌方英雄技能CD倒计时，因水平有限暂且只能做成这样了，希望能在玩家对战中起到我有你没有（聊胜于无）的作用，有不满意或者BUG欢迎发邮件到lol@solodog.cn^_^</string>
+    <string name="help">在理想状态下，本软件的使用方法是这样的：\n
+        1读取进度条的时候长按对应位置按钮选择敌方英雄技能\n
+        2在敌方英雄释放技能后单击选择好技能的按钮开始计时，计时结束后会有语音提示（来自元首亲切的问候，目前还没写切换或自定义提示音，请见谅）\n
+        3想重置已经在计时的技能，短按位置（如：“上”）重置技能时间1，长按“上”重置技能时间2，其他位置以此类推\n
+        4在倒计时重置的情况下可以再次长按选择其他技能\n
+        5have fun^_^\n
+        6长按选择，短按计时。短按重置1，长按重置2</string>
+</resources>

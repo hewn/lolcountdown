@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuabFlash"
+        android:title="闪现" />
+    <item
+        android:id="@+id/menuabHeal"
+        android:title="治疗术" />
+    <item
+        android:id="@+id/menuabTeleport"
+        android:title="传送" />
+    <item
+        android:id="@+id/menuabDot"
+        android:title="引燃" />
+    <item
+        android:id="@+id/menuabBarrier"
+        android:title="屏障" />
+    <item
+        android:id="@+id/menuabBoost"
+        android:title="净化" />
+    <item
+        android:id="@+id/menuabHaste"
+        android:title="幽灵疾步" />
+    <item
+        android:id="@+id/menuabMana"
+        android:title="清晰术" />
+    <item
+        android:id="@+id/menuabExhaust"
+        android:title="虚弱" />
+
+</menu>

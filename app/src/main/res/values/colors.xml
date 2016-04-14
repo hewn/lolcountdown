@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="Mback">#081E23</color>
+    <color name="Bback">#B6292B</color>
+    <color name="Btext">#D7C4A4</color>
+    <color name="VLback">#122A32</color>
+    <color name="STtext">#D7C4A4</color>
+    <color name="Btextshadow">#6e6e6e</color>
+
+</resources>

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Mback"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="cn.solodog.lolcountdown.MainActivity">
+
+    <TableLayout
+        android:id="@+id/TableLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="19.5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="19.5">
+
+            <TextView
+                android:id="@+id/stop1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="上"
+                android:textColor="@color/STtext"
+                android:textSize="45sp" />
+
+            <Button
+                android:id="@+id/btab1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btab2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:background="@color/VLback" />
+
+    <TableLayout
+        android:id="@+id/TableLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="19.5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="19.5">
+
+            <TextView
+                android:id="@+id/stop2"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:textColor="@color/STtext"
+                android:text="中"
+                android:textSize="45sp" />
+
+            <Button
+                android:id="@+id/btab3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btab4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:background="@color/VLback" />
+
+    <TableLayout
+        android:id="@+id/TableLayout03"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="19.5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="19.5">
+
+            <TextView
+                android:id="@+id/stop3"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:textColor="@color/STtext"
+                android:gravity="center"
+                android:text="野"
+                android:textSize="45sp" />
+
+            <Button
+                android:id="@+id/btab5"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btab6"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:background="@color/VLback" />
+
+    <TableLayout
+        android:id="@+id/TableLayout04"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="19.5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="19.5">
+
+            <TextView
+                android:id="@+id/stop4"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:textColor="@color/STtext"
+                android:gravity="center"
+                android:text="辅"
+                android:textSize="45sp" />
+
+            <Button
+                android:id="@+id/btab7"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btab8"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:background="@color/VLback" />
+
+    <TableLayout
+        android:id="@+id/TableLayout05"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="19.5">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="19.5">
+
+            <TextView
+                android:id="@+id/stop5"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:textColor="@color/STtext"
+                android:gravity="center"
+                android:text="射"
+                android:textSize="45sp" />
+
+            <Button
+                android:id="@+id/btab9"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/btab10"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:shadowColor="@color/Btextshadow"
+                android:shadowDx="3"
+                android:shadowDy="3"
+                android:shadowRadius="1"
+                android:text="召唤师技能"
+                android:textColor="@color/Btext"
+                android:textSize="25sp" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.5"
+        android:background="@color/Mback" />
+</LinearLayout>
+
